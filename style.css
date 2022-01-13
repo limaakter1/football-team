@@ -53,6 +53,7 @@ nav li a {
   margin-right: 210px;
   margin-top: 60px;
   grid-row-gap: 30px;
+  grid-column-gap: 30px;
   align-items: center;
 }
 .player {
