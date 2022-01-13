@@ -99,3 +99,20 @@ footer {
 .social-icon img {
   width: 50px;
 }
+@media only screen and (max-width: 688px) {
+  .logo {
+    display: block;
+  }
+  .logo-title img {
+    margin-top: 20px;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlights {
+    display: block;
+  }
+  .highlight-details img {
+    margin-top: 20px;
+  }
+}
