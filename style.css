@@ -26,6 +26,23 @@ nav li a {
   text-decoration: none;
   color: #ffffff;
 }
+.toggle-button {
+  margin-top: 3%;
+  margin-left: 7%;
+  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 16px;
+  display: none;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
 .link-button {
   background-color: #e02c6d;
   padding: 5px 10px;
@@ -93,13 +110,23 @@ footer {
 .footer-logo img {
   width: 480px;
   height: 110px;
-  /* margin-left: 100%; */
 }
 
 .social-icon img {
   width: 50px;
 }
 @media only screen and (max-width: 688px) {
+  .toggle-button {
+    display: flex;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav > ul {
+    display: none;
+  }
+
   .logo {
     display: block;
   }
