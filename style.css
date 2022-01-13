@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@400;500&family=Roboto+Slab&family=Source+Serif+Pro&family=Ubuntu&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: #2d25a0;
+  color: #ffffff;
+  padding-bottom: 2em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+
+  margin-left: 5%;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 25px;
+}
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-button {
+  background-color: #e02c6d;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 5%;
+  color: #ffffff;
+}
+.logo {
+  display: flex;
+  margin-top: 1em;
+}
+.logo-title {
+  width: 50%;
+  margin-left: 7%;
+}
+.logo-title img {
+  width: 70%;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 180px;
+  margin-right: 210px;
+  margin-top: 60px;
+  grid-row-gap: 30px;
+  align-items: center;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  box-shadow: 10px 10px 50px gray;
+}
+.player img {
+  width: 100%;
+}
+.player-details {
+  padding-left: 16px;
+}
