@@ -33,6 +33,7 @@ nav li a {
   border-radius: 5px;
   margin-right: 5%;
   color: #ffffff;
+  border: none;
 }
 .logo {
   display: flex;
@@ -64,4 +65,36 @@ nav li a {
 }
 .player-details {
   padding-left: 16px;
+}
+.highlights {
+  display: flex;
+  margin-top: 150px;
+  margin-right: 60px;
+}
+.highlight-details {
+  width: 50%;
+  margin-left: 182px;
+}
+.highlight-details img {
+  width: 70%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 210px;
+  margin-left: 30%;
+  margin-top: 150px;
+}
+
+.footer-logo img {
+  width: 480px;
+  height: 110px;
+  /* margin-left: 100%; */
+}
+
+.social-icon img {
+  width: 50px;
 }
