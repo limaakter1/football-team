@@ -116,6 +116,9 @@ footer {
   width: 50px;
 }
 @media only screen and (max-width: 688px) {
+  header {
+    width: 100%;
+  }
   .toggle-button {
     display: flex;
   }
@@ -135,6 +138,8 @@ footer {
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
   }
   .highlights {
     display: block;
